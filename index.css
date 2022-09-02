@@ -1,10 +1,15 @@
 *{
     box-sizing: border-box;
 }
+#body{
+    background: no-repeat;
+    background-size: cover;
+    transition: 1s;
+}
 .container{
     height: 80vh;
     width: 70%;
-    background-color: rgba(219, 213, 213, 0.137);
+    background-color: rgba(219, 213, 213, 0.534);
     box-shadow: 5px 10px 8px #888888;
 }
 .search{
@@ -23,12 +28,13 @@
     margin-top: 50%;
 }
 .showweather{
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: 700;
     text-align: center;
 }
 #cityname{
     text-transform: capitalize;
-    margin-top: 45px;
+    margin-top: 15px;
 }
 .showcity{
     padding: 15px;
